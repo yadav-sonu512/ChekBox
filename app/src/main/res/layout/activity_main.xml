@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal"
+       android:background="#F87716">
+      <ImageView
+          android:id="@+id/back"
+          android:layout_width="50dp"
+          android:layout_height="35dp"
+         android:layout_gravity="center"
+         android:src="@drawable/baseline_keyboard_double_arrow_left_24"/>
+      <TextView
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:textSize="25dp"
+          android:textColor="@color/white"
+          android:layout_gravity="center"
+          android:gravity="center"
+         android:text="Kotlin for Android"/>
+      <ImageView
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+         android:src="@drawable/baseline_density_medium_24"
+         android:layout_marginLeft="20dp"
+         android:layout_gravity="center"/>
+
+
+
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       android:orientation="vertical">
+
+   <CheckBox
+       android:id="@+id/Kotlin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Kotlin"
+       android:textSize="25dp"/>
+
+   <CheckBox
+       android:id="@+id/java"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="Java"
+      android:textSize="25dp"/>
+
+   </LinearLayout>
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/button"
+       android:backgroundTint="#B9AEAE"
+       android:layout_width="120dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Click"
+       android:textAllCaps="false"
+       android:layout_margin="20dp"
+       android:textSize="19sp"
+       android:padding="20dp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="25dp"
+          android:paddingLeft="10dp"
+          android:textColor="#DD2C00"
+          android:textStyle="bold"
+         android:text="Next"/>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+
+      android:orientation="vertical">
+
+      <RatingBar
+         android:id="@+id/guddu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:numStars="6"
+         android:stepSize="0.25"
+         android:rating="5"
+         android:layout_gravity="center"
+         android:layout_margin="20dp"/>
+
+      <Button
+          android:id="@+id/mohit"
+          android:layout_width="150dp"
+          android:layout_height="65dp"
+         android:text="Click"
+          android:layout_marginLeft="100dp"
+         android:backgroundTint="#647C6E"
+         android:textSize="25sp"
+         android:textAllCaps="false"
+         />
+
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+      >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:text="Next"
+         android:textSize="25dp"
+         android:paddingLeft="10dp"
+         android:textColor="#DD2C00"
+         android:textStyle="bold"/>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/nextpage"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:backgroundTint="#DD2C00"
+         android:text="Next page"
+         android:textSize="25dp"/>
+   </LinearLayout>
+
+
+
+</LinearLayout>
